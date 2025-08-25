@@ -4,6 +4,9 @@ import MainLayout from "./layout/MainLayout";
 import HREmployees from "./pages/HREmployees";
 import HRReports from "./pages/HRReports";
 import HRTimeOff from "./pages/HRTimeOff";
+import HRClientRequirements from "./pages/HRClientRequirements";
+import TaskProgressPage from "./pages/HRTaskProgress";
+import SettingsPage from "./pages/HRSettings";
 
 const App = () => {
   return (
@@ -38,6 +41,30 @@ const App = () => {
           element={
             <MainLayout>
               <HRTimeOff />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/client-requirements"
+          element={
+            <MainLayout>
+              <HRClientRequirements />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/tasks-progress"
+          element={
+            <MainLayout>
+              <TaskProgressPage />
+            </MainLayout>
+          }
+        />
+        <Route
+          path="/settings"
+          element={
+            <MainLayout>
+              <SettingsPage />
             </MainLayout>
           }
         />

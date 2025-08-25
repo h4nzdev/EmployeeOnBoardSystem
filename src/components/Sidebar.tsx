@@ -6,6 +6,7 @@ import {
   Settings,
   LogOut,
   X,
+  LucideCalendarCheck,
 } from "lucide-react";
 import { useLocation, useNavigate } from "react-router-dom";
 
@@ -14,6 +15,16 @@ const menuItems = [
   { label: "Employees", icon: Users, path: "/employees" },
   { label: "Reports", icon: FileText, path: "/reports" },
   { label: "Time Off", icon: Calendar, path: "/time-off" },
+  {
+    label: "Client Requirements",
+    icon: FileText,
+    path: "/client-requirements",
+  },
+  {
+    label: "Tasks Progress",
+    icon: LucideCalendarCheck,
+    path: "/tasks-progress",
+  },
   { label: "Settings", icon: Settings, path: "/settings" },
 ];
 
