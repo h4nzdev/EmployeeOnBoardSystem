@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import HRDashboard from "./pages/HRDashboard";
 import MainLayout from "./layout/MainLayout";
 import HREmployees from "./pages/HREmployees";
@@ -68,6 +68,7 @@ const App = () => {
             </MainLayout>
           }
         />
+        <Route path="*" element={<Navigate to="/dashboard" />} />
       </Routes>
     </BrowserRouter>
   );
