@@ -1,6 +1,6 @@
-import { Bell, Menu} from "lucide-react";
+import { Bell, Menu } from "lucide-react";
 
-const Header = ({ isOpen, setIsOpen }) => {
+const Header = ({ isOpen, setIsOpen }: any) => {
   return (
     <header className="bg-slate-900/80 backdrop-blur border-b border-slate-700 sticky top-0 z-30">
       <div className="px-6 py-4">

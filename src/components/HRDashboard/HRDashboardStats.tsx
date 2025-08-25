@@ -1,6 +1,21 @@
 import { CalendarX, Clock, UserPlus, Users } from "lucide-react";
 
-const HRDashboardStats = ({ employees }: any) => {
+type Employee = {
+  id: number;
+  name: string;
+  email: string;
+  role: string;
+  department: string;
+  status: string;
+  joinDate: string;
+  avatar: string;
+};
+
+type HRDashboardStatsProps = {
+  employees: Employee[];
+};
+
+const HRDashboardStats = ({ employees }: HRDashboardStatsProps) => {
   const pendingLength = employees.filter(
     (e: any) => e.status === "Pending"
   ).length;

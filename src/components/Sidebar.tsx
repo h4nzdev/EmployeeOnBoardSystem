@@ -28,7 +28,7 @@ const menuItems = [
   { label: "Settings", icon: Settings, path: "/settings" },
 ];
 
-const Sidebar = ({ isOpen, setIsOpen }) => {
+const Sidebar = ({ isOpen, setIsOpen }: any) => {
   const location = useLocation();
   const navigate = useNavigate();
 
