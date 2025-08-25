@@ -1,8 +1,9 @@
 import { CalendarX, Clock, UserPlus, Users } from "lucide-react";
-import React from "react";
 
-const HRDashboardStats = ({ employees }) => {
-  const pendingLength = employees.filter((e) => e.status === "Pending").length;
+const HRDashboardStats = ({ employees }: any) => {
+  const pendingLength = employees.filter(
+    (e: any) => e.status === "Pending"
+  ).length;
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 mb-8">
       <div className="bg-slate-900 rounded-xl p-6 border border-slate-800 shadow-sm">

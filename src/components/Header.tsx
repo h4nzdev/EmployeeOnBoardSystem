@@ -1,5 +1,4 @@
-import { Bell, Menu, Sidebar } from "lucide-react";
-import React from "react";
+import { Bell, Menu} from "lucide-react";
 
 const Header = ({ isOpen, setIsOpen }) => {
   return (
