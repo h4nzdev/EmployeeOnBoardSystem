@@ -1,12 +1,4 @@
-import {
-  Users,
-  UserPlus,
-  Clock,
-  CalendarX,
-  MoreHorizontal,
-  Download,
-  Plus,
-} from "lucide-react";
+import { MoreHorizontal, Download, Plus } from "lucide-react";
 import HRDashboardStats from "../components/HRDashboard/HRDashboardStats";
 
 export default function HRDashboard() {
