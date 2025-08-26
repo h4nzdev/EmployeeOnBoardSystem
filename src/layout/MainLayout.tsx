@@ -1,8 +1,8 @@
 // MainLayout.tsx
 import { useState, type ReactNode } from "react";
 
-import Sidebar from "../components/Sidebar";
-import Header from "../components/Header";
+import Sidebar from "../components/HRComponents/Sidebar";
+import Header from "../components/HRComponents/Header";
 
 /**
  * Props for the `MainLayout` component.

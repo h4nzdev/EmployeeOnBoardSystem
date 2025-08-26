@@ -1,6 +1,6 @@
-import { Save, User, Bell, Shield } from "lucide-react"
+import { Save, User, Bell, Shield } from "lucide-react";
 
-export default function SettingsPage() {
+export default function HRSettings() {
   return (
     <div className="min-h-screen bg-slate-900 p-6">
       <div className="mb-6">
@@ -22,7 +22,9 @@ export default function SettingsPage() {
           <div className="p-6">
             <div className="space-y-4">
               <div className="space-y-2">
-                <label className="block text-sm font-medium text-slate-300">Full Name</label>
+                <label className="block text-sm font-medium text-slate-300">
+                  Full Name
+                </label>
                 <input
                   type="text"
                   defaultValue="John Smith"
@@ -30,7 +32,9 @@ export default function SettingsPage() {
                 />
               </div>
               <div className="space-y-2">
-                <label className="block text-sm font-medium text-slate-300">Email</label>
+                <label className="block text-sm font-medium text-slate-300">
+                  Email
+                </label>
                 <input
                   type="email"
                   defaultValue="john.smith@company.com"
@@ -38,7 +42,9 @@ export default function SettingsPage() {
                 />
               </div>
               <div className="space-y-2">
-                <label className="block text-sm font-medium text-slate-300">Department</label>
+                <label className="block text-sm font-medium text-slate-300">
+                  Department
+                </label>
                 <select className="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
                   <option value="Human Resources">Human Resources</option>
                   <option value="Engineering">Engineering</option>
@@ -55,14 +61,18 @@ export default function SettingsPage() {
           <div className="px-6 py-4 border-b border-slate-800">
             <div className="flex items-center space-x-3">
               <Bell className="w-5 h-5 text-blue-400" />
-              <h3 className="text-lg font-semibold text-slate-100">Notifications</h3>
+              <h3 className="text-lg font-semibold text-slate-100">
+                Notifications
+              </h3>
             </div>
           </div>
 
           <div className="p-6">
             <div className="space-y-4">
               <div className="space-y-2">
-                <label className="block text-sm font-medium text-slate-300">Email Notifications</label>
+                <label className="block text-sm font-medium text-slate-300">
+                  Email Notifications
+                </label>
                 <div className="flex items-center">
                   <button className="relative inline-flex h-6 w-11 items-center rounded-full transition-colors bg-blue-600">
                     <span className="inline-block h-4 w-4 transform rounded-full bg-white transition-transform translate-x-6" />
@@ -71,7 +81,9 @@ export default function SettingsPage() {
                 </div>
               </div>
               <div className="space-y-2">
-                <label className="block text-sm font-medium text-slate-300">Push Notifications</label>
+                <label className="block text-sm font-medium text-slate-300">
+                  Push Notifications
+                </label>
                 <div className="flex items-center">
                   <button className="relative inline-flex h-6 w-11 items-center rounded-full transition-colors bg-slate-700">
                     <span className="inline-block h-4 w-4 transform rounded-full bg-white transition-transform translate-x-1" />
@@ -95,7 +107,9 @@ export default function SettingsPage() {
           <div className="p-6">
             <div className="space-y-4">
               <div className="space-y-2">
-                <label className="block text-sm font-medium text-slate-300">Two-Factor Authentication</label>
+                <label className="block text-sm font-medium text-slate-300">
+                  Two-Factor Authentication
+                </label>
                 <div className="flex items-center">
                   <button className="relative inline-flex h-6 w-11 items-center rounded-full transition-colors bg-blue-600">
                     <span className="inline-block h-4 w-4 transform rounded-full bg-white transition-transform translate-x-6" />
@@ -104,7 +118,9 @@ export default function SettingsPage() {
                 </div>
               </div>
               <div className="space-y-2">
-                <label className="block text-sm font-medium text-slate-300">Session Timeout</label>
+                <label className="block text-sm font-medium text-slate-300">
+                  Session Timeout
+                </label>
                 <select className="w-full px-3 py-2 bg-slate-800 border border-slate-700 rounded-lg text-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
                   <option value="30 minutes">30 minutes</option>
                   <option value="1 hour">1 hour</option>
@@ -125,5 +141,5 @@ export default function SettingsPage() {
         </button>
       </div>
     </div>
-  )
+  );
 }

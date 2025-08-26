@@ -1,5 +1,5 @@
 import { MoreHorizontal, Download, Plus } from "lucide-react";
-import HRDashboardStats from "../components/HRDashboard/HRDashboardStats";
+import HRDashboardStats from "../../components/HRComponents/HRDashboard/HRDashboardStats";
 
 export default function HRDashboard() {
   const employees = [
