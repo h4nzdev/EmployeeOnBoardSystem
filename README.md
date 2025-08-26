@@ -71,7 +71,7 @@ frontend/
 ### 1\. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/h4nzdev/EmployeeOnBoardSystem
 cd frontend
 ```
 
